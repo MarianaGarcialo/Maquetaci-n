@@ -1,0 +1,133 @@
+/* Estilos Globales */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 3em;
+}
+
+/* Menú de Navegación */
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+/* Sección de Fotos */
+section.photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.photo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+/* Publicidad */
+.ad {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.ad img {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 3em;
+}
+
+/* Menú de Navegación */
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+/* Carrusel */
+.carousel {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 400%;
+    animation: slide 12s infinite;
+}
+
+.carousel-item {
+    width: 100%;
+    flex: 1 0 100%;
+}
+
+.carousel img {
+    width: 100%;
+    border: 2px solid #fff;
+}

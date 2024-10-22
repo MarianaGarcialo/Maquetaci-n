@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crónicas Analógicas</title>
+    <link rel="stylesheet" href="CSS2/coloresyodimg.css">    
+
+</head>
+<body>
+    <style>
+    .body{
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .header h1 {
+        color: #fff;
+        font-size: 3em;
+    }
+
+    .nav {
+        background-color: #000;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1.2em;
+    }
+
+    .section.photos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .photo {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        border: 2px solid #fff;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #000;
+        color: #fff;
+        font-size: 1em;
+    }
+
+    .contact-info {
+        margin-bottom: 10px;
+    }
+
+    .ad {
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+    }
+</style>
+    <header>
+        <h1>Crónicas Analógicas</h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Galería</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <section class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="IMAGENES/mujerhilando.jpg" alt="Mujer hilando">
+            </div>
+            <div class="carousel-item">
+                <img src="IMAGENES/habitantedecalle.jpg" alt="Habitante de calle revisando la basura">
+            </div>
+            <div class="carousel-item">
+                <img src="IMAGENES/obrero.jpg" alt="Trabajador construyendo">
+            </div>
+            <div class="carousel-item">
+                <img src="IMAGENES/viejolloviendo.jpg" alt="Viejo caminando en la lluvia con costal de alberjas">
+            </div>
+        </div>
+    </section>
+
+    <div class="ad">
+        <p>Publicidad de Canon: ¡Explora las mejores cámaras de Canon para capturar tus momentos en blanco y negro!</p>
+        <img src="publicidad_canon.jpg" alt="Publicidad de cámaras Canon" style="width:100%; max-width:600px;">
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <p>Correo: contacto@cronicasanalogicas.com</p>
+            <p>Instagram: @cronicasanalogicas</p>
+        </div>
+        <p>© 2024 Crónicas Analógicas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
